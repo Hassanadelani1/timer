@@ -1,0 +1,43 @@
+#container{
+  justify-content: center;
+  display:flex;
+  margin: 0 auto;
+  font-family: monospace;
+}
+
+#add{
+  /* padding: 30px; */
+  
+}
+#subtract{
+  /* padding: 30px; */
+}
+#timer{
+  padding:30px;
+  height: 20px;
+  font-size: 2em;
+  font-family: monospace;
+  background-color: green;
+  align-items: center;
+  align-content: center;
+}
+.buttom button{
+  padding: 5px;
+  height: 10px;
+}
+.button{
+  background-color: green;
+  color: black;
+  font-size: 2em;
+  align-items: center;
+}
+.top{
+  flex-direction: column;
+}
+.buttom{
+  /* margin-top: 15px; */
+
+}
+.button{
+  flex-direction: column;
+}
